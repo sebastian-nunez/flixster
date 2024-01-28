@@ -30,15 +30,15 @@ The following **additional** features are implemented:
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README.
 
-![demo](./demo_flixster.gif)
+![demo](./demo_flixster_low.gif)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+- Scaling the images to right dimensions
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024 Sebastian Nunez
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
