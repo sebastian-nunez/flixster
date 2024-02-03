@@ -1,6 +1,6 @@
 # Flixster
 
-**Submitted by: **Sebastian Nunez
+**Submitted by:** Sebastian Nunez
 
 Flixster is a movie-browsing app that allows users to browse the newest movies.
 
