@@ -1,40 +1,38 @@
-# Project 2 - Flixster
+# Flixster
 
-Submitted by: Sebastian Nunez
+**Submitted by: **Sebastian Nunez
 
-Flixster is a movie browsing app that allows users to browse popular movies.
+Flixster is a movie-browsing app that allows users to browse the newest movies.
 
-Time spent: 2 hours spent in total
+Time spent: 4 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] Users are able to see a customized app icon and launch screen
-- [x] Your app should work for any screen size and orientation using AutoLayout constraints
-  - [x] Mark here if you will demostrate auto layout implemention as horizontal rotation or different phone size or both, then erase this text
-- [x] Displays at least 5 different movies in a table view
-- [x] Can tap into detail view of movie with a full description, backdrop image, and title
+- [x] Implement network call and table view to display a list of movies currently playing (title, description, image)
+- [x] The app has a collection view with the same list of movies
+- [x] Uses a tab bar controller to switch between collection view and table view screens
 
 The following **optional** features are implemented:
 
-- [x] Unique UI changes, such as background, font/color changes, etc.
-- [ ] User implements a collection view
-- [ ] User implemenets tab bar controller with at least two screens
+- [x] Make an additional network call to another end-point.
+- [x] Allow users to scroll when context items are off-screen (table view implementation)
 
 The following **additional** features are implemented:
 
-- [x] Dark/light mode
+- [x] Full dark mode support
+- [x] Implemented a bottom sheet within the "Grid" view to see movie details
+- [x] Added custom `presentationDetents` to the sheet for multiple expansion points/sizes
+- [x] Added a horizontally scrolling view for the related movies
 
 ## Video Walkthrough
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README.
-
-![demo](./demo_flixster_low.gif)
+![demo video v2](./demo_v2.gif)
 
 ## Notes
 
-- Scaling the images to right dimensions
+- Issues while parsing JSON data and mapping it to the `Movie` model
 
 ## License
 
